@@ -1,0 +1,75 @@
+Git 
+[Command line tool, doesn’t have any ui or anything. It is in local system]
+It installed locally 
+Open source licenced, primarily a cmd line tool. Maintained by linux
+Focused on version control
+
+Github
+[Webbased
+Service , it has some ui. It is opensource and paid also]
+Hosted in client
+Owned by Microsoft 
+Free usage for public
+This gives hosting service to git. It is a service
+
+
+How to run in cmd line
+New repository
+
+Cmd prompt in this folder
+Install github to work from cmd prompt
+Got to website
+http://git-scm.com/downloads
+open cmd prompt and check whether its installed or not
+git –version
+go to ur desktop and create a floder and open it.
+git init[initialize git in that folder]—initialized empty git repository in that folder(initialize the git hub in that folder)
+.git folder is created, which is a hidden folder.
+Dir>one.txtcreate one file in that folder
+To check the status cmd git status…
+That means one file is there but that file is not there in repository. We have to add it tot repository…untracked files
+Git add one.txt(Git add .)
+See status again
+Git status(showing in green color)
+Now it is there in repository , we need to commit
+Git commit –m “first commit”
+We have to give some msg , just like git
+It says , pls tell me who are u…
+Git config --global user.name “amulyag24”
+Git config - -global user.email amulyag24@gmail.com
+Now to commit again
+Git commit – m “first commit”
+Then see the status
+Git status---(no commits yet)
+Push to git repository from local repository
+Copy uri of new repository
+Git remote add origin <rep uri>[this is where I am telling where to push]
+Now push the code
+Git push -u origin master(we are pushing to master branch)
+It shows how much data it is added
+We will go to our repository and refersh it 
+See the status… nothing to commint , working tree clean
+Open the file and edit and now check
+Git staus it is showing modified
+If multiple files are there………….two.html
+Check statusone file is there which is not added.. one file is not updated
+Git add .      adddng all the files
+Git stausaddeded but not committed
+Git commit –m “second commit”
+Now push  git push –u origin master
+
+If anyone change and delete…I need to pull it 
+Git pull –p origin master
+Git status
+Now if I see the status , file has deleted
+Git log(it is to see the history)
+
+To add username and password
+Git config –global user.name “”
+Git config –global user.email “ “
+Git config – global – unset user.name
+There are three files. One file added line, second file deleted one line, third file ->file only deleted
+Git status
+Git add.
+Git commit –m “ “
+Git push –u origin master
