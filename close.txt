@@ -1,0 +1,11 @@
+ Volume in drive C has no label.
+ Volume Serial Number is E213-D1B3
+
+ Directory of C:\Users\kiranTS\Desktop\New folder
+
+24-Jan-19  04:51 PM    <DIR>          .
+24-Jan-19  04:51 PM    <DIR>          ..
+24-Jan-19  04:51 PM                 0 close.txt
+24-Jan-19  04:44 PM               355 open.txt
+               2 File(s)            355 bytes
+               2 Dir(s)  35,977,089,024 bytes free
